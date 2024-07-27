@@ -1,0 +1,13 @@
+(01) open terminal and check node version node -v
+(02)open your project folder in vs code editor
+(04) open terminal and run this command  npm init -y
+(04) open terminal and run this command  npm install -D tailwindcss postcss autoprefixer vite
+(05)open terminal and run this command  npx tailwindcss init -p
+(06)open tailwind.config.js file & add your file path 
+	content: ["*.html"],
+(07)open package.json file and test script to replace "start": "vite"
+(08)open css folder and create style.css file and past three syntax
+								@tailwind base;
+								@tailwind components;
+								@tailwind utilities;
+(09)open terminal and run this command  npm run start

@@ -1,0 +1,17 @@
+(01) open terminal and check node version node -v
+(02)open your project folder in vs code editor
+(03) create 2 folders 1.assets, 2.css in your project folder.
+(04) open css folder and create index.html file
+(05) open vs code terminal and command npx tailwindcss init
+(06)open css folder and create input.css
+(07)open input.css file and add three most important line 
+			   1.@tailwind base;
+                           2.@tailwind components;
+                           3.@tailwind utilities;
+(08)open tailwind.config.js file & add your file path 
+	content: ["*.html"],
+(09)open vs code terminal and command
+	 npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch 
+(10)open index.html file and link new create style.css file
+
+(11)Install node_modules  command npm install -D tailwindcss 
