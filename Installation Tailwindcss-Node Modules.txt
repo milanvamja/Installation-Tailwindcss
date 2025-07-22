@@ -11,3 +11,23 @@
 								@tailwind components;
 								@tailwind utilities;
 (09)open terminal and run this command  npm run start
+
+
+
+// tailwind.config.js
+module.exports = {
+  theme: {
+    borderRadius: {
+      milan: "20px",
+    },
+
+    colors: {
+      "theme-color": "#f18100",
+      "secondary-color": "#343f56",
+    },
+  },
+  plugins: [],
+};
+
+
+Note Attached (@config "../tailwind.config.js";) File
